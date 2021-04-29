@@ -7,27 +7,34 @@ package com.hcl;
  * @author Pragati Sharma
  *
  */
-public class Assignment5 {
+public class Assignment6 {
+	static int a = 555;
 
 	public static void main(String[] args) {
-		FirstClass objA = new FirstClass();
 
-		SecondClass objB = new SecondClass();
+		A objA = new A();
 
-		System.out.println("in main(): ");
+		B objB1 = new B();
 
-		System.out.println("objA.a = " + objA.getFirstClass());
+		A objB2 = new B();
 
-		System.out.println("objB.b = " + objB.getSecondClass());
+		C objC1 = new C();
 
-		objA.setFirstClass(222);
+		B objC2 = new C();
 
-		objB.setSecondClass(333.33);
+		A objC3 = new C();
 
-		System.out.println("objA.a = " + objA.getFirstClass());
+		objA.display();
 
-		System.out.println("objB.b = " + objB.getSecondClass());
+		objB1.display();
 
+		objB2.display();
+
+		objC1.display();
+
+		objC2.display();
+
+		objC3.display();
 	}
 
 }
