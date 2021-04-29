@@ -7,7 +7,7 @@ package com.hcl;
  * @author Pragati Sharma
  *
  */
-public class Assignment6 {
+public class Assignment5 {
 
 	public static void main(String[] args) {
 		FirstClass objA = new FirstClass();
